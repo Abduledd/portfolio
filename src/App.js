@@ -1,8 +1,9 @@
 import './App.css';
-
+import NavBar from './components/NavBar';
+// import './index.css'
 function App() {
   return <div>
-    <h1> Hello </h1>
+    <NavBar></NavBar>
   </div>
 }
 
