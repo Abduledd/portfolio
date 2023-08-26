@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 const NavBar = () => {
+  const [nav, setNav] = useState(false);
   const links = [
     {
       id: 1,
@@ -29,7 +30,7 @@ const NavBar = () => {
         <h1 className="text-5xl font-signature ml-2"> Eddahbi</h1>
       </div>
 
-      <ul className="flex">
+      <ul className="hidden md:flex">
         {links.map(({ id, link }) => (
           <li
             key={id}
@@ -38,6 +39,12 @@ const NavBar = () => {
           </li>
         ))}
       </ul>
+
+      <div
+        onClick={() => setNav(!nav)}
+        className="cursor-pointer pr-4 z-10 tex-gray-500">
+        {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
+      </div>
     </div>
   );
 };
