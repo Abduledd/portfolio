@@ -1,6 +1,6 @@
 import React from "react";
 import { MdKeyboardArrowRight } from "react-icons/md";
-import MoiBrux from "../assets/1.jpg";
+import MoiBrux from "../assets/2.jpg";
 import { icons } from "react-icons";
 
 const Home = () => {
