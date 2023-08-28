@@ -2,6 +2,7 @@
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
+    "./node_modules/flowbite/**/*.js"
   ], theme: {
     screens: {
       'cs': '1114px',
@@ -21,11 +22,19 @@ module.exports = {
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
     },
-    extend: {},
+
+    extend: {
+      backgroundImage: {
+        'style1': 'linear-gradient(to bottom, #000000, #1F2937)',
+        'style2': 'linear-gradient(to bottom,#1F2937, #000000, )',
+
+      },
+    },
     fontFamily: {
       signature: ["Great Vibes"]
-    }
+    }, plugins: [
+      require('flowbite/plugin')
+    ]
   },
   plugins: [],
 }
-

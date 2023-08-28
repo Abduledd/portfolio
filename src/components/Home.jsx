@@ -3,11 +3,10 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import MoiBrux from "../assets/2.jpg";
 // import { icons } from "react-icons";
 import { Link } from "react-scroll";
+import style1 from "../style1";
 const Home = () => {
   return (
-    <div
-      name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800">
+    <div name="home" className={`h-screen w-full ${style1}`}>
       <div className="max-w-screen-lg mx-auto flex flex-row items-center justify-center h-full px-4 md:flex-row gap-2">
         <div className=" p-3 flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-4xl font-bold text-white w-full">
