@@ -7,6 +7,7 @@ import NavBar from './components/NavBar';
 import Portfolio from './components/Portfolio';
 import Education from './components/Education';
 import SocialLinks from './components/SocialLinks';
+import LinksSmall from './components/LinksSmall';
 // import './index.css'
 function App() {
   return <div>
@@ -17,6 +18,7 @@ function App() {
     <Portfolio />
     <Experience />
     <Contact />
+    <LinksSmall />
     <SocialLinks />
   </div>
 }
