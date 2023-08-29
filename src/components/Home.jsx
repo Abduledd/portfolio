@@ -1,6 +1,7 @@
 import React from "react";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import MoiBrux from "../assets/2.jpg";
+// import moiAllemagne from "../assets/3.jpg";
 // import { icons } from "react-icons";
 import { Link } from "react-scroll";
 import style1 from "../style1";
