@@ -1,15 +1,18 @@
 import React from "react";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import blog from "../assets/portfolio/blog.png";
+
 import style1 from "../style1";
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: reactWeather,
+      src: blog,
+      codeLink: "https://github.com/Abduledd/Blog",
     },
     {
       id: 2,
-      src: reactWeather,
+      src: blog,
     },
     {
       id: 3,
@@ -40,7 +43,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, codeLink }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -51,9 +54,12 @@ const Portfolio = () => {
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   Demo
                 </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <a
+                  href={codeLink}
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                  {" "}
                   Code
-                </button>
+                </a>
               </div>
             </div>
           ))}
