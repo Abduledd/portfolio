@@ -14,11 +14,12 @@ const Home = () => {
             I'm a student Software Engineer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I am a passionate student engineer with a strong interest in data
-            science. Eager to explore the world of analytics and insights, I'm
-            committed to leveraging my engineering skills to unlock valuable
-            information from complex datasets, making informed decisions that
-            drive innovation and progress.
+            Hello! My name is Eddahbi Abderrahmane, and I am a dedicated and
+            enthusiastic student pursuing my Bachelor's degree in Software
+            Engineering. From an early age, I was drawn to the world of
+            technology, and this passion has fueled my journey into the realms
+            of Data Science, Artificial Intelligence, and Full-stack Software
+            Development.
           </p>
 
           <div>
