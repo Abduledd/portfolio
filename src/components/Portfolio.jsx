@@ -1,6 +1,8 @@
 import React from "react";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 import blog from "../assets/portfolio/blog.png";
+import chatbot from "../assets/portfolio/chatbotUi.png";
+import movie from "../assets/portfolio/movieProject.png";
 
 import style1 from "../style1";
 const Portfolio = () => {
@@ -12,11 +14,12 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: blog,
+      src: chatbot,
+      codeLink: "https://github.com/Abduledd/ChatBot",
     },
     {
       id: 3,
-      src: reactWeather,
+      src: movie,
     },
     {
       id: 4,

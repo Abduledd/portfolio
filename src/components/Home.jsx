@@ -13,7 +13,7 @@ const Home = () => {
           <h2 className="text-4xl sm:text-4xl font-bold text-white w-full">
             I'm a student Software Engineer
           </h2>
-          <p className="text-gray-500 py-4 max-w-md">
+          <p className="text-gray-300 py-4 max-w-md">
             Hello! My name is Eddahbi Abderrahmane, and I am a dedicated and
             enthusiastic student pursuing my Bachelor's degree in Software
             Engineering. From an early age, I was drawn to the world of

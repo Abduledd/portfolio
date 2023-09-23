@@ -3,7 +3,9 @@ import style2 from "../style2";
 
 const Education = () => {
   return (
-    <div className={`flex items-center w-full h-screen ${style2} px-36`}>
+    <div
+      name="education"
+      className={`flex items-center w-full h-screen ${style2} px-36`}>
       <ol class="relative border-l border-gray-200 dark:border-gray-700 ">
         <li class="mb-10 ml-4">
           <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-700 dark:bg-gray-700"></div>
