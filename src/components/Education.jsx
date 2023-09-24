@@ -6,9 +6,9 @@ const Education = () => {
     <div
       name="education"
       className={`flex items-center w-full h-screen ${style2} px-36`}>
-      <ol class="relative border-l border-gray-200 dark:border-gray-700 ">
+      <ol class="relative border-l border-gray-200 dark:border-gray-400 ">
         <li class="mb-10 ml-4">
-          <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-700 dark:bg-gray-700"></div>
+          <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-400 dark:bg-gray-400"></div>
           <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
             2018-2019
           </time>
@@ -20,7 +20,7 @@ const Education = () => {
           </p>
         </li>
         <li class="mb-10 ml-4">
-          <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+          <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-400 dark:bg-gray-400"></div>
           <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
             2019-2021
           </time>
@@ -33,7 +33,7 @@ const Education = () => {
           </p>
         </li>
         <li class="ml-4">
-          <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+          <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-400 dark:bg-gray-400"></div>
           <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
             2021-Present
           </time>
