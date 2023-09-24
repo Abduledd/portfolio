@@ -12,6 +12,7 @@ import react from "../assets/react.png";
 import sql from "../assets/sql.png";
 import github from "../assets/github.png";
 import style2 from "../style2";
+import nodejs from "../assets/nodejs.png";
 
 const Experience = () => {
   const techs = [
@@ -88,6 +89,13 @@ const Experience = () => {
       src: github,
       title: "Github",
       style: "shadow-gray-700",
+    },
+
+    {
+      id: 13,
+      src: nodejs,
+      title: "NodeJS",
+      style: "shadow-green-700",
     },
   ];
 
