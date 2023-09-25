@@ -89,7 +89,7 @@ const Contact = () => {
           </form>
         </div>
 
-        <div className="sm:hidden flex justify-center ">
+        <div className="md:hidden flex justify-center ">
           <ul className="flex">
             {links.map(({ id, child, href, style, download }) => (
               <li

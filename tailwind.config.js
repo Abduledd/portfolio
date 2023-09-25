@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+
+
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
@@ -24,10 +26,8 @@ module.exports = {
     },
 
     extend: {
-      backgroundImage: {
-        'style1': 'linear-gradient(to bottom, #000000, #1F2937)',
-        'style2': 'linear-gradient(to bottom,#1F2937, #000000, )',
-
+      colors: {
+        customColor: '#21232f',
       },
     },
     fontFamily: {

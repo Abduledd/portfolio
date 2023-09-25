@@ -10,8 +10,9 @@ const Home = () => {
     <div name="home" className={`h-screen w-full ${style1}`}>
       <div className="max-w-screen-lg mx-auto flex flex-row items-center justify-center h-full px-4 md:flex-row gap-2">
         <div className=" p-3 flex flex-col justify-center h-full sm:px-14">
-          <h2 className="text-4xl sm:text-4xl font-bold text-white w-full">
-            I'm a student Software Engineer
+          <h2 className="text-4xl sm:text-4xl font-bold text-gray-400 w-full">
+            Hello, it's me <br />
+            <div className="text-red-900">Abderrahmane Eddahbi </div>
           </h2>
           <p className="text-gray-300 py-4 max-w-md">
             Hello! My name is Eddahbi Abderrahmane, and I am a dedicated and
@@ -39,7 +40,7 @@ const Home = () => {
           <img
             src={MoiBrux}
             alt="me"
-            className="rounded-2xl mx-auto md:w-2/3"
+            className="rounded-2xl mx-auto md:w-2/3 hover:scale-105 duration-200 cursor-pointer"
           />
         </div>
       </div>
