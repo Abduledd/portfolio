@@ -27,7 +27,7 @@ module.exports = {
 
     extend: {
       colors: {
-        customColor: '#21232f',
+        customColor: '#11172a',
       },
     },
     fontFamily: {

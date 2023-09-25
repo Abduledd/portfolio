@@ -4,6 +4,7 @@ import { Link } from "react-scroll";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
+
   const links = [
     {
       id: 1,
@@ -29,7 +30,7 @@ const NavBar = () => {
   return (
     <div
       className="flex justify-between items-center w-full h-20 px-4 text-white fixed z-50"
-      style={{ backgroundColor: "#21232f" }}>
+      style={{ backgroundColor: "#11172a" }}>
       <div>
         <h1 className="cursor-pointer text-5xl font-signature ml-2">Eddahbi</h1>
       </div>

@@ -7,10 +7,12 @@ import NavBar from './components/NavBar';
 import Portfolio from './components/Portfolio';
 import Education from './components/Education';
 import SocialLinks from './components/SocialLinks';
+import Projects from './components/Projects';
 function App() {
   return <div>
     <NavBar />
     <Home />
+    <Projects />
     <Education />
     {/* <About /> */}
     <Portfolio />

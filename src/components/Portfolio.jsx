@@ -51,7 +51,7 @@ const Portfolio = () => {
   };
 
   return (
-    <div name="portfolio" className={`${style1} w-full md:h-screen py-20`}>
+    <div name="portfolio" className={`${style1} py-20`}>
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
@@ -60,13 +60,15 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="flex flex-col items-center w-full h-full px-12 sm:px-0">
           {portfolios.map(({ id, src, codeLink, description }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+            <div
+              key={id}
+              className="bg-black w-full h-full my-4 flex rounded-lg">
               <img
                 src={src}
                 alt="reactWeather"
-                className="rounded-md duration-200 hover:scale-105"
+                className="w-72 h-56 object-cover m-auto rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
                 <button
@@ -102,129 +104,11 @@ const Portfolio = () => {
                           __html: selectedDescription,
                         }}
                       /> */}
-
-                      <div className="flex flex-col justify-center items-center ">
-                        <h1 className="text-red-700 font-bold mb-4">
-                          Blogging Platform with User Authentication and Post
-                          Management
-                        </h1>
-                        <div className="flex items-center p-3">
-                          <h2 className="mr-4 text-red-700 font-bold">
-                            Overview
-                          </h2>
-                          <p className="text-gray-500">
-                            This project showcases a full-stack web application,
-                            creating a dynamic and interactive blogging
-                            platform. Users can register, log in, and publish
-                            blog posts, which are then displayed for all
-                            visitors to see. If logged in, users have the
-                            additional ability to edit their own posts.
-                          </p>
-                        </div>
-                        <div className="flex items-center p-3 ">
-                          <h2 className="mr-4 text-red-700 font-bold">
-                            Key Features
-                          </h2>
-                          <ul>
-                            <li>
-                              <strong className="text-green-700">
-                                User Authentication:
-                              </strong>{" "}
-                              Users can register and log in securely. Passwords
-                              are encrypted using bcrypt for enhanced security.
-                            </li>
-                            <li>
-                              <strong className="text-green-700">
-                                Post Management:
-                              </strong>{" "}
-                              Authenticated users can create and edit their blog
-                              posts, with options to provide a title, summary,
-                              content, and cover image.
-                            </li>
-                            <li>
-                              <strong className="text-green-700">
-                                Seamless UI:
-                              </strong>{" "}
-                              The frontend, built with React and styled using
-                              Tailwind CSS, offers an intuitive and engaging
-                              user interface for a seamless user experience.
-                            </li>
-                            <li>
-                              <strong className="text-green-700">
-                                Image Uploads:
-                              </strong>{" "}
-                              The application allows users to upload cover
-                              images for their blog posts, enhancing the visual
-                              appeal of each post.
-                            </li>
-                            <li>
-                              <strong className="text-green-700">
-                                Responsive Design:
-                              </strong>{" "}
-                              The application is designed to be fully
-                              responsive, ensuring a consistent and enjoyable
-                              experience across devices.
-                            </li>
-                          </ul>
-                        </div>
-
-                        <div className="flex p-3 items-center">
-                          <div className="mr-4 flex-shrink-0">
-                            <h2 className="text-red-700 font-bold">
-                              Technologies Used
-                            </h2>
-                          </div>
-                          <div className="flex-grow">
-                            <ul>
-                              <li>
-                                <strong className="text-green-700">
-                                  Frontend:
-                                </strong>{" "}
-                                React, Tailwind CSS
-                              </li>
-                              <li>
-                                <strong className="text-green-700">
-                                  Backend:
-                                </strong>{" "}
-                                Node.js, Express.js
-                              </li>
-                              <li>
-                                <strong className="text-green-700">
-                                  Database:
-                                </strong>{" "}
-                                MongoDB (with Mongoose ODM)
-                              </li>
-                              <li>
-                                <strong className="text-green-700">
-                                  Authentication:
-                                </strong>{" "}
-                                JSON Web Tokens (JWT) for secure user
-                                authentication
-                              </li>
-                              <li>
-                                <strong className="text-green-700">
-                                  File Uploads:
-                                </strong>{" "}
-                                Multer for handling file uploads
-                              </li>
-                              <li>
-                                <strong className="text-green-700">
-                                  Styling:
-                                </strong>{" "}
-                                Tailwind CSS for efficient and responsive
-                                styling
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
                     </div>
                   </div>
                 )}
 
-                <a
-                  href={codeLink}
-                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <a href={codeLink} className="">
                   {" "}
                   Code
                 </a>
