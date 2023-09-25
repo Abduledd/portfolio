@@ -29,6 +29,9 @@ module.exports = {
       colors: {
         customColor: '#11172a',
         customColor2: '#1D2848',
+        customColor3: '#192b39',
+        customColor4: '#84e8d2',
+
       },
     },
     fontFamily: {

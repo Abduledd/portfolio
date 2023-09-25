@@ -12,6 +12,7 @@ const Projects = () => {
       title: "Blogging Platform with User Authentication and Post Management",
       description:
         "This project showcases a full-stack web application, creating a dynamic and interactive blogging platform. Users can register, log in, and publish blog posts, which are then displayed for all visitors to see. If logged in, users have the additional ability to edit their own posts.",
+      techs: ["ReactJs", "TailWindCSS"],
     },
     {
       id: 2,
@@ -46,16 +47,14 @@ const Projects = () => {
     <section
       name="projects"
       className="flex flex-col items-center bg-customColor text-white py-10">
-      <h2 className="text-red-800 text-2xl sm:text-4xl font-bold mb-7">
-        Projects
-      </h2>
+      <h2 className="text-red-800 text-2xl sm:text-4xl font-bold">Projects</h2>
 
       {/* <p className="text-sm md:text-base lg:text-lg xl:text-xl">
         Some description of the projects section.
       </p> */}
 
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-6 mt-8">
-        {projects.map(({ id, src, codeLink, title, description }) => (
+        {projects.map(({ id, src, codeLink, title, description, techs }) => (
           <div
             key={id}
             className="bg-customColor hover:bg-customColor2 duration-200 p-6 mx-10 rounded-lg sm:flex">
@@ -71,7 +70,15 @@ const Projects = () => {
                 <h3 className="font-bold mb-2">{title}</h3>
                 <p className="text-gray-400 text-sm mb-4">{description}</p>
               </div>
-
+              <div className="flex">
+                {techs.map((tech, index) => (
+                  <span
+                    key={index}
+                    className="bg-customColor3 text-sm text-customColor4 py-1 px-3 rounded-2xl mr-2">
+                    {tech}
+                  </span>
+                ))}
+              </div>
               <div className="flex justify-between">
                 <a
                   href="#"
