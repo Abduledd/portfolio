@@ -28,6 +28,7 @@ module.exports = {
     extend: {
       colors: {
         customColor: '#11172a',
+        customColor2: '#1D2848',
       },
     },
     fontFamily: {

@@ -12,10 +12,10 @@ function App() {
   return <div>
     <NavBar />
     <Home />
-    <Projects />
     <Education />
     {/* <About /> */}
-    <Portfolio />
+    <Projects />
+    {/* <Portfolio /> */}
     <Experience />
     <Contact />
     <SocialLinks />

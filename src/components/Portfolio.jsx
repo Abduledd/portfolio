@@ -76,37 +76,6 @@ const Portfolio = () => {
                   onClick={() => toggleModal(description)}>
                   Demo
                 </button>
-                {isModalVisible && (
-                  <div className="fixed inset-0 flex flex-col justify-center items-center z-50 bg-gray-900 bg-opacity-95 w-4/5 h-2/3 md:h-3/4 m-auto">
-                    <div className="modal-content bg-black p-6 rounded-lg text-center">
-                      <button
-                        type="button"
-                        className="absolute top-4 left-4 bg-gray-600 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
-                        onClick={() => toggleModal("")}>
-                        <span className="sr-only">Close menu</span>
-                        <svg
-                          className="h-6 w-6"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          aria-hidden="true">
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M6 18L18 6M6 6l12 12"
-                          />
-                        </svg>
-                      </button>
-                      {/* <div
-                        dangerouslySetInnerHTML={{
-                          __html: selectedDescription,
-                        }}
-                      /> */}
-                    </div>
-                  </div>
-                )}
 
                 <a href={codeLink} className="">
                   {" "}
