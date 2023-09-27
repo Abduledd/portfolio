@@ -4,6 +4,7 @@ import blog from "../assets/portfolio/blog.png";
 import chatbot from "../assets/portfolio/chatbotUi.png";
 import movie from "../assets/portfolio/movieProject.png";
 import portfolio from "../assets/portfolio/portfolio.png";
+import medecine from "../assets/portfolio/Medecine.png";
 const Projects = () => {
   const projects = [
     {
@@ -21,7 +22,7 @@ const Projects = () => {
       codeLink: "https://github.com/Abduledd/ChatBot",
       title: "Building an Intelligent Chatbot",
       description:
-        "TThis project showcases an engaging and responsive chatbot application powered by OpenAI's GPT-3, integrated seamlessly with React for the frontend and Node.js for the backend. The chatbot provides users with an interactive conversation experience, generating insightful responses based on their inputs..",
+        "This project showcases an engaging and responsive chatbot application powered by OpenAI's GPT-3, integrated seamlessly with React for the frontend and Node.js for the backend. The chatbot provides users with an interactive conversation experience, generating insightful responses based on their inputs..",
       techs: ["openaiAPI", "ReactJs", "TailWind", "NodeJS", "ExpressJS"],
     },
     {
@@ -52,15 +53,24 @@ const Projects = () => {
     },
     {
       id: 5,
-      src: reactWeather,
-      description: "Ok its working",
-      techs: ["ReactJs", "TailWindCSS"],
+      src: medecine,
+      title: "Health Prediction Website",
+      description:
+        "his project implements a web application that allows users to predict their likelihood of having diabetes or heart disease based on provided health data. The application offers two prediction models: one for diabetes prediction and another for heart disease prediction. Users can input their health information through the web interface, which is then sent to the backend for prediction using pre-trained machine learning models. The predicted outcomes are displayed to the users",
+      techs: [
+        "ReactJs",
+        "TailWindCSS",
+        "Flask",
+        "Python",
+        "Pandas",
+        "scikit-learn",
+      ],
     },
     {
       id: 6,
       src: reactWeather,
       description: "Ok its working",
-      techs: ["ReactJs", "TailWindCSS"],
+      techs: ["ReactJs", "TailWindCSS", "Python", "Pandas", "scikit-learn"],
     },
   ];
 
@@ -68,13 +78,15 @@ const Projects = () => {
     <section
       name="projects"
       className="flex flex-col items-center bg-customColor text-white py-10">
-      <h2 className="text-red-800 text-2xl sm:text-4xl font-bold">Projects</h2>
+      <h2 className="text-customColor4 text-2xl sm:text-4xl font-bold">
+        Projects
+      </h2>
 
       {/* <p className="text-sm md:text-base lg:text-lg xl:text-xl">
         Some description of the projects section.
       </p> */}
 
-      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-6 mt-8">
+      <div className="grid grid-cols-1 gap-6 mt-8">
         {projects.map(({ id, src, codeLink, title, description, techs }) => (
           <div
             key={id}
@@ -116,10 +128,6 @@ const Projects = () => {
           </div>
         ))}
       </div>
-
-      <button className="bg-blue-500 text-white font-bold py-2 px-4 mt-8 rounded-full hover:bg-blue-700 transition duration-300">
-        Load More
-      </button>
     </section>
   );
 };

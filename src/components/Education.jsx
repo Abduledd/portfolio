@@ -5,7 +5,7 @@ const Education = () => {
   return (
     <div
       name="education"
-      className={`flex items-center w-full h-full ${style2} py-14 px-5 sm:px-36`}>
+      className={`flex items-center w-full h-full md:h-screen ${style2} py-14 px-5 sm:px-36 lg:px-72`}>
       <ol class="relative border-l border-gray-200 dark:border-gray-400 ">
         <li class="mb-10 ml-4">
           <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-400 dark:bg-gray-400"></div>
