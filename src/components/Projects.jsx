@@ -2,13 +2,31 @@ import React from "react";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 import blog from "../assets/portfolio/blog.png";
 import chatbot from "../assets/portfolio/chatbotUi.png";
-import movie from "../assets/portfolio/movieProject.png";
+import movie from "../assets/portfolio/movie.png";
 import portfolio from "../assets/portfolio/portfolio.png";
+import game from "../assets/portfolio/game.png";
 import medecine from "../assets/portfolio/Medecine.png";
+import sat from "../assets/portfolio/nanosat.jpeg";
 const Projects = () => {
   const projects = [
     {
       id: 1,
+      src: medecine,
+      codeLink: "https://github.com/Abduledd/Medecine-Project",
+      title: "Health Prediction Website",
+      description:
+        "his project implements a web application that allows users to predict their likelihood of having diabetes or heart disease based on provided health data. The application offers two prediction models: one for diabetes prediction and another for heart disease prediction. Users can input their health information through the web interface, which is then sent to the backend for prediction using pre-trained machine learning models. The predicted outcomes are displayed to the users",
+      techs: [
+        "ReactJs",
+        "TailWindCSS",
+        "Flask",
+        "Python",
+        "Pandas",
+        "scikit-learn",
+      ],
+    },
+    {
+      id: 2,
       src: blog,
       codeLink: "https://github.com/Abduledd/Blog",
       title: "Blogging Platform with User Authentication and Post Management",
@@ -17,7 +35,7 @@ const Projects = () => {
       techs: ["ReactJs", "TailWind", "MongoDB", "NodeJS", "ExpressJS"],
     },
     {
-      id: 2,
+      id: 3,
       src: chatbot,
       codeLink: "https://github.com/Abduledd/ChatBot",
       title: "Building an Intelligent Chatbot",
@@ -26,7 +44,7 @@ const Projects = () => {
       techs: ["openaiAPI", "ReactJs", "TailWind", "NodeJS", "ExpressJS"],
     },
     {
-      id: 3,
+      id: 4,
       src: movie,
       codeLink: "https://github.com/Abduledd/Movie-Project",
       title: "Movie Recommendation System",
@@ -44,33 +62,34 @@ const Projects = () => {
       ],
     },
     {
-      id: 4,
+      id: 5,
       src: portfolio,
       title: "My Personal Portfolio",
+      codeLink: "https://github.com/Abduledd/portfolio",
       description:
         "My Personal Portfolio is an embodiment of my journey, a digital canvas where my story unfolds. Welcome to the hub of my creative odyssey, where each click reveals a new chapter of innovation and expertise. In this moment, you are perusing my portfolio — a glimpse into my world of creativity and dedication.",
       techs: ["ReactJs", "TailWind"],
     },
-    {
-      id: 5,
-      src: medecine,
-      title: "Health Prediction Website",
-      description:
-        "his project implements a web application that allows users to predict their likelihood of having diabetes or heart disease based on provided health data. The application offers two prediction models: one for diabetes prediction and another for heart disease prediction. Users can input their health information through the web interface, which is then sent to the backend for prediction using pre-trained machine learning models. The predicted outcomes are displayed to the users",
-      techs: [
-        "ReactJs",
-        "TailWindCSS",
-        "Flask",
-        "Python",
-        "Pandas",
-        "scikit-learn",
-      ],
-    },
+
     {
       id: 6,
-      src: reactWeather,
-      description: "Ok its working",
-      techs: ["ReactJs", "TailWindCSS", "Python", "Pandas", "scikit-learn"],
+      src: game,
+      codeLink: "https://github.com/Abduledd/Game2D",
+      title: "MMORPG Game Development Inspired by Dungeons",
+      description:
+        "This project involves the design and development of an MMORPG adventure game where players explore dungeons, battle enemies, and strive to rescue a trapped friend. Iteration 4 implements critical functionalities and provides a glimpse of the user interface. Despite a few challenges, the project holds promising potential for an engaging and immersive game",
+      techs: ["JAVA"],
+    },
+    {
+      id: 7,
+      src: sat,
+      codeLink:
+        "https://github.com/Abduledd/Resilience-d-un-essaim-de-nano-satellites",
+      title:
+        "Resilience Analysis and Opportunistic Routing in Nano-Satellite Swarms",
+      description:
+        "This project delves into the realm of nano-satellite technology, focusing on the robustness and efficient data transmission within a satellite swarm. Exploring the impact of node failures on the swarm's performance, we developed a tailored routing algorithm, optimizing message delivery and minimizing latency across varying transmission ranges. This project offered invaluable insights into enhancing swarm network resilience and presented a promising avenue for future advancements in satellite communication.",
+      techs: ["Python", "Pandas", "NetworkX"],
     },
   ];
 

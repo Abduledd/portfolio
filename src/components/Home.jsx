@@ -12,7 +12,7 @@ const Home = () => {
         <div className=" p-3 flex flex-col justify-center h-full sm:px-14">
           <h2 className="text-4xl sm:text-4xl font-bold text-gray-400 w-full">
             Hello, it's me <br />
-            <div className="text-red-900">Abderrahmane Eddahbi </div>
+            <div className="text-cyan-600 ">Abderrahmane Eddahbi </div>
           </h2>
           <p className="text-gray-300 py-4 max-w-md">
             Hello! My name is Eddahbi Abderrahmane, and I am a dedicated and
