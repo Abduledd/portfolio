@@ -1,5 +1,4 @@
 import React from "react";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
 import blog from "../assets/portfolio/blog.png";
 import chatbot from "../assets/portfolio/chatbotUi.png";
 import movie from "../assets/portfolio/movie.png";
