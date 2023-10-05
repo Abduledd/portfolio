@@ -6,6 +6,8 @@ import portfolio from "../assets/portfolio/portfolio.png";
 import game from "../assets/portfolio/game.png";
 import medecine from "../assets/portfolio/Medecine.png";
 import sat from "../assets/portfolio/nanosat.jpeg";
+import sentiment from "../assets/portfolio/sentiment.png";
+
 const Projects = () => {
   const projects = [
     {
@@ -89,6 +91,24 @@ const Projects = () => {
       description:
         "This project delves into the realm of nano-satellite technology, focusing on the robustness and efficient data transmission within a satellite swarm. Exploring the impact of node failures on the swarm's performance, we developed a tailored routing algorithm, optimizing message delivery and minimizing latency across varying transmission ranges. This project offered invaluable insights into enhancing swarm network resilience and presented a promising avenue for future advancements in satellite communication.",
       techs: ["Python", "Pandas", "NetworkX"],
+    },
+    {
+      id: 8,
+      src: sentiment,
+      codeLink: "https://github.com/Abduledd/sentiment-project",
+      title: "Sentiment Analysis Web Application using LSTM",
+      description:
+        "Sentiment Analysis Web Application using LSTM is a project that showcases the power of Natural Language Processing (NLP) and deep learning in understanding and analyzing human sentiments from text. The web application predicts the sentiment of a given phrase as either negative, somewhat negative, neutral, somewhat positive, or positive.",
+      techs: [
+        "Python",
+        "Pandas",
+        "Flask",
+        "Keras",
+        "NLTK",
+        "ReactJS",
+        "TailWind",
+        "pickle",
+      ],
     },
   ];
 

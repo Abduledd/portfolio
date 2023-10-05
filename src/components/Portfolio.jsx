@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
 import blog from "../assets/portfolio/blog.png";
 import chatbot from "../assets/portfolio/chatbotUi.png";
 import movie from "../assets/portfolio/movieProject.png";
@@ -27,17 +26,17 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      src: reactWeather,
+      src: chatbot,
       description: "Ok its working",
     },
     {
       id: 5,
-      src: reactWeather,
+      src: chatbot,
       description: "Ok its working",
     },
     {
       id: 6,
-      src: reactWeather,
+      src: chatbot,
       description: "Ok its working",
     },
   ];
