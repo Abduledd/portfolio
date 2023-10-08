@@ -41,7 +41,7 @@ const Contact = () => {
           <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/CV.pdf",
+      href: "srccomponentsCV.pdf",
       style: "rounded-br-md",
       download: true,
     },

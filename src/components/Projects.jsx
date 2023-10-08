@@ -153,9 +153,7 @@ const Projects = () => {
               <div className="flex justify-between">
                 <a
                   href="#"
-                  className="text-blue-500 hover:text-blue-300 transition duration-300">
-                  View Project
-                </a>
+                  className="text-blue-500 hover:text-blue-300 transition duration-300"></a>
                 <a
                   href={codeLink}
                   className="text-blue-500 hover:text-blue-300 transition duration-300">
