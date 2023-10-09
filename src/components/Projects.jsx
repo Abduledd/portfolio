@@ -16,7 +16,7 @@ const Projects = () => {
       codeLink: "https://github.com/Abduledd/Medecine-Project",
       title: "Health Prediction Website",
       description:
-        "his project implements a web application that allows users to predict their likelihood of having diabetes or heart disease based on provided health data. The application offers two prediction models: one for diabetes prediction and another for heart disease prediction. Users can input their health information through the web interface, which is then sent to the backend for prediction using pre-trained machine learning models. The predicted outcomes are displayed to the users",
+        "This project implements a web application that allows users to predict their likelihood of having diabetes or heart disease based on provided health data. The application offers two prediction models: one for diabetes prediction and another for heart disease prediction. Users can input their health information through the web interface, which is then sent to the backend for prediction using pre-trained machine learning models. The predicted outcomes are displayed to the users",
       techs: [
         "ReactJs",
         "TailWindCSS",
