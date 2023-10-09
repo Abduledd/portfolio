@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import MoiBrux from "../assets/2.jpg";
+import ReactGA from "react-ga";
+
 // import moiAllemagne from "../assets/3.jpg";
 // import { icons } from "react-icons";
 import { Link } from "react-scroll";
