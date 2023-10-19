@@ -7,8 +7,11 @@ module.exports = {
     "./node_modules/flowbite/**/*.js"
   ], theme: {
     screens: {
+
       'cs': '1114px',
       // => @media (min-width: 230px) { ... }
+      'vs': '430px',
+      // => @media (min-width: 430px) { ... }
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
 

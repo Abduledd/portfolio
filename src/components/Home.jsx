@@ -9,14 +9,14 @@ import { Link } from "react-scroll";
 import style1 from "../style1";
 const Home = () => {
   return (
-    <div name="home" className={`h-screen w-full ${style1}`}>
+    <div name="home" className={`h-screen w-full vs:pt-0 ${style1}`}>
       <div className="max-w-screen-lg mx-auto flex flex-row items-center justify-center h-full px-4 md:flex-row gap-2">
-        <div className=" p-3 flex flex-col justify-center h-full sm:px-14">
+        <div className=" p-3 flex flex-col justify-center h-full w-56 vs:w-auto sm:px-14">
           <h2 className="text-4xl sm:text-4xl font-bold text-gray-400 w-full">
             Hello, it's me <br />
             <div className="text-cyan-600 ">Abderrahmane Eddahbi </div>
           </h2>
-          <p className="text-gray-300 py-4 max-w-md">
+          <p className="text-gray-300 text-sm vs:text-base py-4 max-w-md">
             Hello! My name is Eddahbi Abderrahmane, and I am a dedicated and
             enthusiastic student pursuing my Bachelor's degree in Software
             Engineering. From an early age, I was drawn to the world of
@@ -42,7 +42,7 @@ const Home = () => {
           <img
             src={MoiBrux}
             alt="me"
-            className="rounded-2xl mx-auto md:w-2/3 hover:scale-105 duration-200 cursor-pointer"
+            className="mt-20 vs:mt-0 rounded-2xl mx-auto md:w-2/3 hover:scale-105 duration-200 cursor-pointer"
           />
         </div>
       </div>
